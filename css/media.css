@@ -1,19 +1,55 @@
-@media (max-width: 768px)
-{
+@media (max-width: 900px)
+{	.header{
+	text-align: center;
+}
 	.logo{
-		width: 220px;
+		width: 270px;
 	}
 	.header .porto-lightbox a.btn{
 		padding: 0 9px 0 38px;
 	    line-height: 30px;
 	    font-size: 11px;
 	}
+	.header_right{
+		text-align: center;
+	}
 	.header_right li{
-		margin-left: 10px;
+		margin: 15px 0 0 0;
+		display: block;
+	}
+	.header_right li:nth-child(3),
+	.header_right li:nth-child(2){
+		display: none;
 	}
 	.header .porto-lightbox a i {
 		width: 30px;
     	font-size: 14px;
    		height: 30px;
     }
+    .container{
+    	width: 540px;
+    }
+    .click_me_sec_block h3{
+    	font-size: 30px;
+    	color: #fff;
+    }
+    .click_me_sec_block li a{
+    	font-size: 18px;
+    }
+}
+@media (max-width: 540px){
+	.container{
+		width: 100%;
+	}
+	.click_me_sec_block h3{
+		font-size: 26px;
+	}
+	.click_me_sec_block li a{
+		padding: 6px 14px;
+	}
+}
+@media (max-width: 440px){
+	.click_me_sec_block h3{
+		margin-bottom: 15px;
+	}
 }
