@@ -26,6 +26,9 @@ a{
 	color: #fff;
 	transition: all 0.5s ease 0s;
 }
+a:hover{
+	text-decoration: none;
+}
 .d-inline-block{
 	display: inline-block;
 }
@@ -63,6 +66,9 @@ a{
 }
 .align-items-center{
 	align-items: center;
+}
+section{
+	padding: 40px 0;
 }
 /*=============================================
 =========== || Header CSS || =============
@@ -120,4 +126,35 @@ a{
 	width: 250px;
 	display: inline-block;
 	height: 100%;
+}
+
+/*=============================================
+=========== || Banner CSS || =============
+=================================*/
+
+/*=============================================
+========= || Clock Me Sec CSS || =========
+=================================*/
+.click_me_sec{
+	background-color: var(--red);
+}
+.click_me_sec_block h3{
+	font-size: 38px;
+	color: #fff;
+}
+.click_me_sec_block li a{
+	background-color: #E6E6E6;
+	font-size: 24px;
+	color: var(--cust-blue);
+	display: inline-block;
+	border-radius: 3px;
+	padding: 10px 20px;	
+	font-weight: bold;
+}
+.click_me_sec_block li a:hover{
+	color: #fff;
+	background-color: var(--cust-blue);
+}
+.click_me_sec_block li{
+	display: inline-block;
 }
