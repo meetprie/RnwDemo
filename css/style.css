@@ -46,15 +46,6 @@ a:hover{
 .row{
 	display: flex;
 }
-.col-md-12{
-	width: 100%;
-}
-.col-lg-6{
-	width: 50%;
-}
-.col-sm-6{
-	width: 100%;
-}
 .justify-content-center{
 	justify-content: center;
 }
@@ -70,8 +61,19 @@ a:hover{
 section{
 	padding: 40px 0;
 }
-.sec-heading h2{
+.sec-heading p{
+	font-size: 18px;
+	color: #4d4d4d;
+	margin-top: 15px;
+}
+.sec_heading_first h2{
 	font-size: 36px;
+}
+.sec-heading{
+	margin-bottom: 30px;
+}
+.sec-heading h2{
+	font-size: 30px;
 }
 .text{
 	color: #4D4D4D;
@@ -181,9 +183,144 @@ section{
 	padding: 0 30px;
 }
 .News_image_Row{
-	padding: 40px 0;
+	padding: 40px 0 0;
 }
 .News_image_Block h3{
 	font-size: 24px;
 	margin-top: 15px;	
+}
+
+/*=============================================
+======= || Education_System CSS || ========
+=================================*/
+.Education_System{
+	background-color: #F6F6F6;
+}
+.System_block h3{
+	font-size: 24px;
+	color: var(--custi-light-blue);
+}
+.Exam_System_row{
+	margin-top: 50px;
+}
+.Exam_System_row .sec-heading h2{
+	font-size: 28px;
+}
+.You_Video{
+	border: 8px solid #fff;
+}
+.red_button{
+	background-color: var(--red);
+	font-size: 20px;
+	color: #fff;
+	display: inline-block;
+	border-radius: 3px;
+	padding: 10px 20px;
+    font-weight: bold;
+    box-shadow: 4px 5px 10px rgba(0,0,0,0.3);
+    margin-top: 20px;
+}
+
+/*=============================================
+========== || Gim_Course CSS || ===========
+=================================*/
+.gin_info .text a{
+	color: blue;
+	text-decoration: underline;
+}
+.border-light{
+	border-color: #F6F6F6;
+}
+
+
+/*=============================================
+=========|| Gim_Course_Full CSS || =========
+=================================*/
+.Gim_Course_Full{
+	background-color: #F6F6F6;
+}
+.gin_info_full span{
+	font-size: 30px;
+}
+
+/*=============================================
+=========|| Whats_Next_Gim CSS || =========
+=================================*/
+.Gim_Course_Block{
+	padding: 18px 8px;
+	position: relative;
+	text-align: center;
+	box-shadow: 0 0 8px 0 rgba(0,0,0,.05);
+	border-bottom: 2px solid #ccc;
+	height: 348px;
+	margin-bottom: 20px;
+	transition: all 0.5s ease 0s;
+	border-radius: 3px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+}
+.Gim_Course_Block:hover {
+	border-bottom-color: var(--red);
+}
+.Gim_Courses_icon {
+	width: 80px;
+	height: 80px;
+	margin: auto 0px;
+	position: relative;
+	display: inline-block;
+}
+.Gim_Single_Course h3{
+	text-transform: uppercase;
+	color: #000;
+	margin: 15px 0;
+	font-size: 20px;
+}
+.Gim_Single_Course{
+	display: inline-block;
+	color: #666;
+	height: 100%;
+}
+.Gim_Single_Course:hover{
+	color: #666;
+}
+
+/*=============================================
+============|| Benefits CSS || ============
+=================================*/
+.benefits{
+	background-color: #333333;
+	color: #fff;
+}
+.Rnw_Benefits{
+	margin: auto;
+	padding: inherit;
+	list-style: disc;
+}
+.Rnw_Benefits li{
+	font-size: 20px;
+	line-height: 36px;
+}
+.red_button:hover{
+	color: #fff;
+}
+
+/*=============================================
+============|| Counter CSS || ============
+=================================*/
+.counter{
+	background-color: var(--red);
+}
+.counter_block{
+	text-align: center;
+	color: #fff;
+}
+.counter_block h2{
+	font-size: 35px;
+}
+.counter_block p{
+	font-size: 16px;
+}
+.counter_block {
+	font-size: 50px;
 }

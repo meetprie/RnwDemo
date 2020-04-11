@@ -1,7 +1,23 @@
-@media (max-width: 900px)
-{	.header{
-	text-align: center;
+@media (max-width: 1000px){
+	.System_block h3,
+	.News_image_Block h3{
+		font-size: 20px;
+		margin-top: 10px;
+	}
+	.top-space{
+		margin-top: 30px;
+	}
+	.bottom_video{
+		order: -1;
+	}/*
+	.Gim_Course_Block{
+		width: 200px;
+	}*/
 }
+@media (max-width: 900px)
+	{	.header{
+		text-align: center;
+	}
 	.logo{
 		width: 270px;
 	}
@@ -36,6 +52,19 @@
     .click_me_sec_block li a{
     	font-size: 18px;
     }
+    .News_image_Row{
+    	padding: 20px 0 0;
+    }
+    .Whats_Next_Gim .col-md-4{
+    	max-width: 100%;
+    	flex: 100%;
+    }
+    .Gim_Course_Block{
+    	height: 260px;
+    }
+    .counter_block{
+    	margin-bottom: 20px;
+    }
 }
 @media (max-width: 540px){
 	.container{
@@ -47,6 +76,19 @@
 	.click_me_sec_block li a{
 		padding: 6px 14px;
 	}
+	.news_paper_news_bottom{
+		padding: 0;
+	}
+	.News_image_Block_first{
+		margin-bottom: 30px;
+	}
+	.top-space{
+		margin-top: 30px;
+	}
+	.Gim_Course_Block{
+    	height: auto;
+    }
+
 }
 @media (max-width: 440px){
 	.click_me_sec_block h3{
