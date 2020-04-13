@@ -89,6 +89,17 @@
         line-height: 42px;
         letter-spacing: 4px;
     }
+
+    .National_International .row .col-lg-3:nth-child(5) .Work_Hard_Student_BLock,
+    .National_International .row .col-lg-3:nth-child(6) .Work_Hard_Student_BLock,
+    .National_International .row .col-lg-3:nth-child(7) .Work_Hard_Student_BLock,
+    .National_International .row .col-lg-3:nth-child(8) .Work_Hard_Student_BLock,
+    .Work_Hard .row .col-lg-3:nth-child(5) .Work_Hard_Student_BLock,
+    .Work_Hard .row .col-lg-3:nth-child(6) .Work_Hard_Student_BLock,
+    .Work_Hard .row .col-lg-3:nth-child(7) .Work_Hard_Student_BLock,
+    .Work_Hard .row .col-lg-3:nth-child(8) .Work_Hard_Student_BLock{
+    	margin-bottom: 15px;
+    }
 }
 @media (max-width: 540px){
 	.container{
@@ -121,6 +132,10 @@
     .Branch_Add_Block .row .col-lg-3:nth-child(2),
     .Branch_Add_Block .row .col-lg-3:nth-child(1){
     	border-bottom: 2px solid #fff;
+    }
+    .National_International .row .col-lg-3:nth-child(8) .Work_Hard_Student_BLock,
+    .Work_Hard .row .col-lg-3:nth-child(8) .Work_Hard_Student_BLock{
+    	margin-bottom: 15px;
     }
 }
 @media (max-width: 440px){

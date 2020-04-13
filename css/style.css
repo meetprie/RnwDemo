@@ -41,10 +41,6 @@ a:hover{
 .container{
 	max-width: 1140px;
 	margin: 0 auto;
-	padding: 0 15px;
-}
-.row{
-	display: flex;
 }
 .justify-content-center{
 	justify-content: center;
@@ -79,6 +75,9 @@ section{
 	color: #4D4D4D;
 	font-size: 18px;
 	line-height: 35px;
+}
+.text-red{
+	color: var(--red) !important;
 }
 /*=============================================
 =========== || Header CSS || =============
@@ -449,6 +448,9 @@ section{
 /*=============================================
 ========|| Work_Hard CSS || =======
 =================================*/
+.Work_Hard {
+	background-color: #f5f5f5;
+}
 .Work_Hard_Student_BLock{
 	overflow: hidden;
 	text-align: center;
@@ -465,7 +467,7 @@ section{
 	margin: 10px 0 6px;
 }
 .Work_Hard_Student_BLock h4{
-	font-size: 22px;
+	font-size: 20px;
 	text-transform: uppercase;
 }
 .Company_Name_first{
@@ -473,4 +475,32 @@ section{
 }
 .Rwn_Student{
 	text-transform: capitalize;
+}
+.National_International .row .col-lg-3:nth-child(5) .Work_Hard_Student_BLock,
+.National_International .row .col-lg-3:nth-child(6) .Work_Hard_Student_BLock,
+.National_International .row .col-lg-3:nth-child(7) .Work_Hard_Student_BLock,
+.National_International .row .col-lg-3:nth-child(8) .Work_Hard_Student_BLock,
+.Work_Hard .row .col-lg-3:nth-child(5) .Work_Hard_Student_BLock,
+.Work_Hard .row .col-lg-3:nth-child(6) .Work_Hard_Student_BLock,
+.Work_Hard .row .col-lg-3:nth-child(7) .Work_Hard_Student_BLock,
+.Work_Hard .row .col-lg-3:nth-child(8) .Work_Hard_Student_BLock{
+	margin-bottom: 0;
+}
+/*=============================================
+====|| National_International CSS || =====
+=================================*/
+.National_International{
+
+}
+.Students_Company_Work{
+	font-size: 13px;
+	color: #999;
+	margin-bottom: 5px;
+}
+.Students_Company_Name{
+	font-size: 15px;
+	color: #212529;
+}
+ .Work_Hard_Student_BLock img{
+	width: 186px;
 }
