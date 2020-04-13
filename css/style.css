@@ -445,3 +445,32 @@ section{
 .First_Slider .item{
 	margin: 0 15px;s
 }
+
+/*=============================================
+========|| Work_Hard CSS || =======
+=================================*/
+.Work_Hard_Student_BLock{
+	overflow: hidden;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.Work_Hard_Student_BLock img{
+	border-radius: 100%;
+	border: 3px solid var(--custi-light-blue);
+}
+.Work_Hard_Student_BLock h3{
+	font-size: 18px;
+	text-transform: uppercase;
+	color: var(--custi-light-blue);
+	margin: 10px 0 6px;
+}
+.Work_Hard_Student_BLock h4{
+	font-size: 22px;
+	text-transform: uppercase;
+}
+.Company_Name_first{
+	color: var(--custi-light-blue);
+}
+.Rwn_Student{
+	text-transform: capitalize;
+}
