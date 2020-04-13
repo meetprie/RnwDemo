@@ -84,6 +84,11 @@
     .Branch_Add_Block .row .col-lg-3:nth-child(3){
     	border-right: 2px solid #fff;
     }
+    .Student_Opinions_Info span {
+        font-size: 31px;
+        line-height: 42px;
+        letter-spacing: 4px;
+    }
 }
 @media (max-width: 540px){
 	.container{

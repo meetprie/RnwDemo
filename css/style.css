@@ -364,3 +364,84 @@ section{
 .counter_block {
 	font-size: 50px;
 }
+
+/*=============================================
+========|| Student_Opinions CSS || =======
+=================================*/
+.Student_Opinions_Info span{
+	font-size: 50px;
+	line-height: 73px;
+	letter-spacing: 4px;
+}
+.Students_Review_Block{
+	text-align: center;
+	padding: 15px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+}
+.Students_Review_Block img{
+	border: 3px solid #fff;
+	box-shadow: 0 0 0 2px #c52410;
+	border-radius: 50px;
+	width: 70px !important;
+	margin: 0 auto;
+}
+.Students_Review_Block strong{
+	margin: 10px 0 5px;
+	display: block;
+}
+.Students_Review_Block span{
+	color: var(--red);
+	display: block;
+}
+.Students_Review_Block p{
+	font-size: 16px;
+	margin-top: 10px;
+	color: #666;
+}
+.First_Slider .owl-prev,
+.First_Slider .owl-next{
+	width: 30px;
+    height: 30px;
+    color: transparent!important;
+    background-color: transparent!important;
+    opacity: 1;
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    top: 45%;
+}
+.First_Slider .owl-prev {
+    left: -50px;
+}
+.First_Slider .owl-next {
+    right: -50px;
+}
+.First_Slider .owl-prev span:before,
+.First_Slider .owl-next span:before{
+	color: var(--custi-light-blue);
+    font-family: "Fontawesome";
+    font-weight: 900;
+    transition: all .5s ease 0s;
+    font-size: 30px;
+}
+.First_Slider .owl-prev span:before {
+    content: "\f104";
+}
+
+.First_Slider .owl-next span:before {
+    content: "\f105";
+}
+.First_Slider button:focus{
+	outline: none;
+}
+.Testmonial_Slider_row{
+	padding: 40px 0;
+}
+.owl-stage{
+	display: flex;
+	align-items: center;
+}
+.First_Slider .item{
+	margin: 0 15px;s
+}
