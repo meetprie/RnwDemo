@@ -142,6 +142,46 @@ section{
 =========== || Banner CSS || =============
 =================================*/
 
+
+/*=============================================
+======= || Branch_Add_Block CSS || =======
+=================================*/
+.Branch_Add_Block{
+	background-color: #F6F6F6;
+	padding: 0;
+}
+.Contact_Num_Info{
+	display: inline-block;
+	vertical-align: sub;
+	margin-left: 8px;
+	text-align: left;
+}
+.Contact_Num_Info h3{
+	font-weight: 600;
+	font-size: 16px;
+	color: #333333;
+}
+.Contact_num_icon{
+	color: #dd3333;
+	font-size: 36px;
+	display: inline-block;
+}
+.Contact_Num_Info span{
+	font-size: 12px;
+	color: #333333;
+}
+.Rnw_Contect_Block a{
+	display: inline-block;
+	padding: 30px 0;
+	text-align: center;
+}
+.Rnw_Contect_Block{
+	border-right: 2px solid #fff;
+	text-align: center;
+}
+.Branch_Add_Block .row .col-lg-3:last-child .Rnw_Contect_Block{
+	border-color: transparent;
+}
 /*=============================================
 ========= || Clock Me Sec CSS || =========
 =================================*/
@@ -155,7 +195,7 @@ section{
 .click_me_sec_block li a{
 	background-color: #E6E6E6;
 	font-size: 24px;
-	color: var(--cust-blue);
+	color: var(--custi-light-blue);
 	display: inline-block;
 	border-radius: 3px;
 	padding: 10px 20px;	
