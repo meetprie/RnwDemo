@@ -137,6 +137,9 @@
     .Work_Hard .row .col-lg-3:nth-child(8) .Work_Hard_Student_BLock{
     	margin-bottom: 15px;
     }
+    .red_button{
+    	margin-bottom: 10px;
+    }
 }
 @media (max-width: 440px){
     .Contact_Num_Info {
