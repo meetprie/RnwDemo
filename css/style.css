@@ -29,30 +29,8 @@ a{
 a:hover{
 	text-decoration: none;
 }
-.d-inline-block{
-	display: inline-block;
-}
-.w-100{
-	width: 100%;
-}
-.position-relative{
-	position: relative;
-}
 .container{
 	max-width: 1140px;
-	margin: 0 auto;
-}
-.justify-content-center{
-	justify-content: center;
-}
-.justify-content-around{
-	justify-content: space-around;
-}
-.justify-content-between{
-	justify-content: space-between;
-}
-.align-items-center{
-	align-items: center;
 }
 section{
 	padding: 40px 0;
