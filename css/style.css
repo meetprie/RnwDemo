@@ -60,6 +60,9 @@ section{
 /*=============================================
 =========== || Header CSS || =============
 =================================*/
+.Top_After_heading{
+	font-size: 18px;
+}
 .header{
 	padding: 15px 0;
 }
@@ -237,7 +240,19 @@ section{
     box-shadow: 4px 5px 10px rgba(0,0,0,0.3);
     margin-top: 20px;
 }
-
+.Exam_System_Bottom_Block {
+	text-align: center;
+	margin-top: 30px;
+}
+.Exam_System_Bottom_Block li{
+	display: inline-block;
+}
+.Exam_System_Bottom_Block li h3{
+	font-size: 26px;	
+}
+.Exam_System_Bottom_Block .red_button{
+	margin-top: 0;
+}
 /*=============================================
 ========== || Gim_Course CSS || ===========
 =================================*/
