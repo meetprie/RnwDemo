@@ -69,6 +69,14 @@
     	max-width: 100%;
     	flex: 100%;
     }
+    .Our_Company .col-md-3{
+        max-width: 50%;
+        margin: 0 auto;
+    }
+    .Our_Company .row .col-md-3:nth-child(7) .Company_Logo_Block,
+    .Our_Company .row .col-md-3:nth-child(8) .Company_Logo_Block{
+        margin-bottom: 0;
+    }
     .Gim_Course_Block{
     	height: 260px;
     }
@@ -99,6 +107,19 @@
     .Work_Hard .row .col-lg-3:nth-child(7) .Work_Hard_Student_BLock,
     .Work_Hard .row .col-lg-3:nth-child(8) .Work_Hard_Student_BLock{
     	margin-bottom: 15px;
+    }
+    .red_button{
+        margin-top: 20px !important;
+    }
+    .Exam_System_Bottom_Block .red_button{
+        margin-top: 0 !important;
+    }
+    .Company_Logo_Block{
+        height: 130px;
+        padding: 10px;
+    }
+    .Company_Logo_Block img{
+        width: 120px;
     }
 }
 @media (max-width: 540px){
@@ -136,9 +157,16 @@
     .National_International .row .col-lg-3:nth-child(8) .Work_Hard_Student_BLock,
     .Work_Hard .row .col-lg-3:nth-child(8) .Work_Hard_Student_BLock{
     	margin-bottom: 15px;
-    }
+    }/*
     .red_button{
     	margin-bottom: 10px;
+    }*/
+    .Exam_System_Bottom_Block .red_button{
+        margin-top: 20px !important;
+    }
+    .Company_Logo_Block{
+        width: auto;
+        height: 120px;
     }
 }
 @media (max-width: 440px){

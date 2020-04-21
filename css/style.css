@@ -338,6 +338,41 @@ section{
 }
 
 /*=============================================
+============|| Our_Company CSS || ============
+=================================*/
+.Company_Logo_Block{
+	background: #fff;
+	border: 1px solid #efefef;
+	height: 180px;
+	width: 200px;
+	box-shadow: 0 0 5px 0 rgba(0,0,0,0.07);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	transition: all 0.5s ease 0s;
+}
+.Company_Logo_Block:hover{
+	box-shadow: 0 0 8px 0 rgba(0,0,0,0.3);
+}
+.Company_Logo_Block:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 1px 8px 0;
+    top: 100%;
+    opacity: 0.3;
+    height: 20px;
+    background: url(https://www.rnwmultimedia.com/wp-content/uploads/2019/04/box-shadow-1.png) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+/*=============================================
 ============|| Counter CSS || ============
 =================================*/
 .counter{
