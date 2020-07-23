@@ -42,7 +42,7 @@ $(document).ready(function() {
 			loop:false,
 			margin:20,
 			dots:true,
-			nav:true,
+			nav:false,
 			autoplay:true,
 			autoplayTimeout:2000,
 			autoplayHoverPause:true,
@@ -54,7 +54,8 @@ $(document).ready(function() {
 					items:2
 				},
 				600:{
-					items:3
+					items:3,
+					dots:false
 				},
 				900:{
 					items:4

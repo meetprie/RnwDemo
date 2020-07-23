@@ -124,6 +124,9 @@ section{
 .logo{
 	width: 150px;
 }
+.header_bottom {
+	background-color: #fff;
+}
 .header_bottom .navbar-nav .nav-item .nav-link{
 	color: var(--blue);
 	text-transform: uppercase;
@@ -594,4 +597,7 @@ section{
     background: var(--blue);
     z-index: 9999;
     border-radius: 100%;
+}
+.custom_dots_design .owl-dots{
+	margin-top: 40px !important;
 }
