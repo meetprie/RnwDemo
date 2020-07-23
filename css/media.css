@@ -86,9 +86,11 @@
 	.carousel-control-prev{
 		left: 20px;
 	}
-
 	.carousel-control-next{
 		right: 20px;
+	}
+	.sec-heading span{
+		left: 35px;
 	}
 }
 @media (max-width: 400px) { /*  Very My Custom sSM */
