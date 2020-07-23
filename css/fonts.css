@@ -1,0 +1,264 @@
+@font-face {
+    font-family: 'iCiel Kermel';
+    src: url('iCielKermel.woff2') format('woff2'),
+        url('iCielKermel.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Finch Ornaments';
+    src: url('iCielFinchOrnaments.woff2') format('woff2'),
+        url('iCielFinchOrnaments.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Gotham Ultra';
+    src: url('../fonts/iCielGotham-Ultra.woff2') format('woff2'),
+        url('../fonts/iCielGotham-Ultra.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Rukola';
+    src: url('iCielRukola.woff2') format('woff2'),
+        url('iCielRukola.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Gotham';
+    src: url('../fonts/iCielGotham-Medium.woff2') format('woff2'),
+        url('../fonts/iCielGotham-Medium.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Amerigraf';
+    src: url('iCielAmerigraf.woff2') format('woff2'),
+        url('iCielAmerigraf.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Paris Serif';
+    src: url('iCielParisSerif-Bold.woff2') format('woff2'),
+        url('iCielParisSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Bambola';
+    src: url('iCielBambola.woff2') format('woff2'),
+        url('iCielBambola.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Pacifico';
+    src: url('iCielPacifico.woff2') format('woff2'),
+        url('iCielPacifico.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Gotham';
+    src: url('iCielGotham-Thin.woff2') format('woff2'),
+        url('iCielGotham-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Soup of Justice';
+    src: url('iCielSoupofJustice.woff2') format('woff2'),
+        url('iCielSoupofJustice.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Altus Extra';
+    src: url('iCielAltusExtra.woff2') format('woff2'),
+        url('iCielAltusExtra.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Cadena';
+    src: url('iCielCadena.woff2') format('woff2'),
+        url('iCielCadena.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Altus';
+    src: url('iCielAltus.woff2') format('woff2'),
+        url('iCielAltus.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Altus Serif';
+    src: url('iCielAltusSerif.woff2') format('woff2'),
+        url('iCielAltusSerif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Paris Serif';
+    src: url('iCielParisSerif-Bold.woff2') format('woff2'),
+        url('iCielParisSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Bambola';
+    src: url('iCielBambola.woff2') format('woff2'),
+        url('iCielBambola.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Soup of Justice';
+    src: url('iCielSoupofJustice.woff2') format('woff2'),
+        url('iCielSoupofJustice.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Altus';
+    src: url('iCielAltus.woff2') format('woff2'),
+        url('iCielAltus.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Cucho';
+    src: url('iCielCucho.woff2') format('woff2'),
+        url('iCielCucho.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Pacifico';
+    src: url('iCielPacifico.woff2') format('woff2'),
+        url('iCielPacifico.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Kermel';
+    src: url('iCielKermel.woff2') format('woff2'),
+        url('iCielKermel.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Amerigraf';
+    src: url('iCielAmerigraf.woff2') format('woff2'),
+        url('iCielAmerigraf.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Cadena';
+    src: url('iCielCadena.woff2') format('woff2'),
+        url('iCielCadena.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Altus Extra';
+    src: url('iCielAltusExtra.woff2') format('woff2'),
+        url('iCielAltusExtra.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Alina';
+    src: url('iCielAlina.woff2') format('woff2'),
+        url('iCielAlina.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Altus Serif';
+    src: url('iCielAltusSerif.woff2') format('woff2'),
+        url('iCielAltusSerif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Rukola';
+    src: url('iCielRukola.woff2') format('woff2'),
+        url('iCielRukola.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Finch Ornaments';
+    src: url('iCielFinchOrnaments.woff2') format('woff2'),
+        url('iCielFinchOrnaments.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: 'iCiel Gotham'; 
+}
